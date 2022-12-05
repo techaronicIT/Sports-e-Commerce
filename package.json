@@ -1,0 +1,41 @@
+{
+  "name": "sports-e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techaronicIT/Sports-e-Commerce.git"
+  },
+  "author": "balaji yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techaronicIT/Sports-e-Commerce.git/issues"
+  },
+  "homepage": "https://github.com/techaronicIT/Sports-e-Commerce.git#readme",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.11.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "generate-password": "^1.7.0",
+    "http": "^0.0.1-security",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "otp-generator": "^4.0.0",
+    "pdfkit": "^0.13.0",
+    "util": "^0.12.4"
+  }
+}

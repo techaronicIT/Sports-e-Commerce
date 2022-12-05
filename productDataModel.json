@@ -1,0 +1,117 @@
+const data = {
+    id: 1,
+    productName: "Apple iPhone 12 Pro Max (Pacific Blue, 128 GB) Write Some specification",
+    price: 139900,
+    discountPrice: 129900,
+    rating: 4,
+    tag: "New",
+    description: `Apple iPhone 12 Pro Max (Pacific Blue, 128 GB) (6 GB RAM) `,
+    category: "Bat",
+    subCategory: "Cricket",
+    brand: "apple",
+    material: "plastic",
+    size: "128 GB",
+    quantity: 1,
+    weight:"3kg",
+    inStock: true,
+    fastDelivery: true,
+    offer: "Extra 10% off",
+    idealFor:"Write Some Description",
+    discount: "10% off",
+    specification: "Write Some specification",
+    seller: "Apple",
+    reviews: [
+        {
+            id: 1,
+            name: "Dev Kumar Sadhwani",
+            rating: 5,
+            title: "Awesome Product",
+            comment: "lorem imsum doller sit amet",
+            date: "2021-03-01T18:30:00.000Z"
+        },
+        {
+            id: 2,
+            name: "Aditya Mishra",
+            rating: 1,
+            title: "Awesome Product",
+
+            comment: "Hey this is very good product. I am very happy with this product. ",
+            date: "2021-03-01T18:30:00.000Z"
+        },
+        {
+
+            id: 3,
+            name: "Darshan Darji",
+            rating: 4.5,
+            title: "Awesome Product",
+            comment: "Good Product",
+            date: "2021-03-01T18:30:00.000Z"
+        },
+        {
+            id: 4,
+            name: "Kuldeep Vishwakarma",
+            rating: 3.5,
+            title: "Awesome Product",
+            comment: "Hey this is very good product. I am very happy with this product. I will recommend this product to everyone. Thank you Flipkart for this product.",
+            date: "2021-03-01T18:30:00.000Z"
+        },
+        {
+            id: 5,
+            name: "Balaji Yadav",
+            rating: 2.5,
+            title: "Awesome Product",
+            comment: "Hey this is very good product. I am very happy with this product. ",
+            date: "2021-03-01T18:30:00.000Z"
+        }
+        ,
+        {
+            id: 6,
+            name: "Rajit Gupta",
+            rating: 2.5,
+            title: "Very Good Product",
+            comment: "Hey this is very good product. I am very happy with this product. ",
+            date: "2022-11-23T09:30:00.000Z"
+        }
+    ],
+    images: [
+        {
+            id: 1,
+            image: "https://th.bing.com/th/id/OIP.47wuCOoN4bdSVSdQYerpGgHaHa?pid=ImgDet&w=1400&h=1400&rs=1"
+        },
+        {
+            id: 2,
+            image: "https://res-5.cloudinary.com/s247/image/upload/c_pad,dpr_1.0,f_auto,q_auto/media/catalog/product/w/o/woodworm-cricket-ib-select-grade-1-cricket-bat.png"
+        },
+        {
+            id: 3,
+            image: "https://thesportsfactory.pk/wp-content/uploads/2020/10/MB-angle-4.png"
+
+        },
+        {
+            id: 4,
+            image: "https://contents.mediadecathlon.com/p1622834/k$770a25fe568ab786e995aea1372e825d/t990-size-sh-kashmir-willow-advanced-cricket-bat-dark-blue.jpg?&f=800x800"
+        },
+        {
+            id: 5,
+            image: "https://bucket.pk/wp-content/uploads/2019/01/VISION-1000-3side.jpg.jpg"
+        }
+    ],
+    videos: [
+        {
+            id: 1,
+            video: "https://www.youtube.com/embed/qE2HZXrx-cY?showinfo=0&controls=0&autoPlay=0"
+        },
+        
+    ],
+    colors: [
+        {
+        id: 1,
+        image:"https://th.bing.com/th/id/OIP.47wuCOoN4bdSVSdQYerpGgHaHa?pid=ImgDet&w=1400&h=1400&rs=1"
+    },{
+        id: 2,
+        image:"https://th.bing.com/th/id/OIP.47wuCOoN4bdSVSdQYerpGgHaHa?pid=ImgDet&w=1400&h=1400&rs=1"
+    },{
+        id: 3,
+        image:"https://th.bing.com/th/id/OIP.47wuCOoN4bdSVSdQYerpGgHaHa?pid=ImgDet&w=1400&h=1400&rs=1"
+    }],
+}
